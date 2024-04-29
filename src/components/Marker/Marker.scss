@@ -1,0 +1,18 @@
+.Marker {
+    background-color: #4CAF50;
+    border: 1px solid blue;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    border-radius: 50%;
+}
+
+.center-col {
+    flex: 1;
+    background: #aaa;
+    overflow-y: scroll;
+  }

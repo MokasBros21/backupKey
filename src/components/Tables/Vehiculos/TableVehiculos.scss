@@ -1,0 +1,8 @@
+.TableVehiculos {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color:white;
+    height: calc(100vh - 78px);
+    overflow: auto;
+}

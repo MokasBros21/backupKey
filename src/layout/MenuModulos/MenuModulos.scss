@@ -1,0 +1,49 @@
+.Menu {
+    display: flex;
+    //background-image: linear-gradient( #3e3e3e, #52dab3);
+    //background: #ffffff !important;
+    background-color: #38414f;
+    font-size: 12px;
+    //margin-top: 13px;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+    box-shadow: 2px;
+    //border-right:dashed #D5DBDB;
+
+    &-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+        background: none;
+        border: 0;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    &-itemDrawer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+        background: none;
+        border: 0;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    &-text {
+        margin-top: 1px;
+        //margin-left: 4px;
+    }
+
+    &-textDrawer {
+        margin-top: 1px;
+        margin-left: 4px;
+    }
+}
+
+.swal2-container {
+    z-index: 10000;
+  }

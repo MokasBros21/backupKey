@@ -1,0 +1,23 @@
+* {
+    margin: 0px; padding: 0px;
+  }
+
+.Home {
+    //background-image: linear-gradient(to right, #3e3e3e, #52dab3);
+    background-image: url("../assets/LoginKeyCity.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.BoxButton {
+    width: 200px;
+    height: 200px;
+    border: 1.5px solid #52dab3;
+    border-radius: 20px;
+
+}

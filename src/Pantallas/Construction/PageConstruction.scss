@@ -1,0 +1,25 @@
+.Construction {
+    //background-image: linear-gradient(to right, #3e3e3e, #52dab3);
+    background-image: url("../../assets/LoginKeyCity.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.AppConstruction {
+    height:100%;
+    flex-direction: column;
+    display: flex;
+    //padding-right: 20px;
+}
+  
+.work-areaConstruction {
+    flex-direction: row;
+    height: 100%;
+    display: flex;
+}

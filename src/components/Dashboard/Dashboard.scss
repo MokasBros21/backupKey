@@ -1,0 +1,128 @@
+.wrapper_dashboard {
+    
+    display: grid;
+    grid-template-columns: repeat(5, 0.7fr);
+    grid-gap: 10px;
+    text-align: center;
+  }
+
+.graficas_principales{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.contenedorTabla{
+
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.contenedorTablaPastel{
+
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.scroll-container {
+  overflow-y: scroll;
+}
+
+.contenedorFechas{
+
+  // margin-right: 5%;
+  margin-top: 2%;
+}
+
+.contenedorTarjeta{
+  margin-top: 15%;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.contenedorReportesAbiertos{
+  display: grid;
+  grid-template-columns: repeat(3, 0.7fr);
+  grid-gap: 10px;
+  text-align: center;
+  
+}
+
+.contenedorFechasAbiertos{
+  margin-left: 30%;
+}
+
+.contenedorTarjetaAbiertos{
+  margin-top: 5%;
+  // margin-left: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+.contenedorGraficaReportesClasificacion{
+  // margin-left: 20%;
+  margin-top: 2%;
+
+ 
+}
+
+.contenedorGraficaMaximoAtencion{
+
+  // margin-left: 20%;
+ margin-top: 0;
+}
+
+
+.map-container-dashboard-reportes {
+   
+  height: 400px;
+
+  // flex: 1;
+  width: 100%;
+  
+  // margin-left: 125px;
+  margin-bottom: 30px;
+  
+}
+
+.contenedorTarjetaActividades{
+
+    display: grid;
+    grid-template-columns: repeat(6, 0.7fr);
+    grid-gap: 2px;
+    // grid-auto-rows: 100px;
+    text-align: center;
+
+}
+
+.appCiudadana{
+  color: #A9CCE3;
+}
+
+#lineaDeProgreso{
+ 
+  margin-bottom: 2%;
+}
+
+.espacio{
+  margin-left: 60%;
+}
+
+.contenedor{
+  margin-left: 10%;
+}
+
+.ocultarElemento{
+  display: none;
+}
+
+#ocultar{
+  display: none;
+}
+
+.color-back{
+  background-color: #73C6B6;
+}
+
+.select-cuadrilla{
+  margin-top: 2%;
+}

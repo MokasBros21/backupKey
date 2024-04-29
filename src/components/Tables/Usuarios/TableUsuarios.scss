@@ -1,0 +1,21 @@
+.TableUsers {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color:white;
+    height: calc(100vh - 78px);
+    overflow: auto;
+}
+
+.footerTableUsers {
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 3px;
+    left: 70px;
+    right: 0;
+    display: flex;
+    box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.45);
+    justify-content: space-between;
+}

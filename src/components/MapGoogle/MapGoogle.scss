@@ -1,0 +1,16 @@
+.map_containerGoogle {
+    display: flex;
+    flex: 1;
+    height: auto;
+    //margin-bottom: 1%;
+}
+
+.grid_cuadrilla{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.texto-derecha{
+    text-align: right;
+    margin-right: 4%;
+}

@@ -1,0 +1,39 @@
+.PantallaPrincipal {
+    flex: 1;
+    padding: 2px;
+    background-image: url("../../assets/LoginKeyCity.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: .97;
+    height: calc(100vh - 50px);
+    width: 100%;
+    overflow: auto;
+}
+
+.caja {
+    display: flex;
+    align-items: center;
+
+    label {
+        margin-right: 6px;
+        color: white;
+        width: 140px;
+        text-align: right;
+        font-weight: bolder;
+    }
+
+    /*input[type="date"]::-webkit-calendar-picker-indicator {
+        background: transparent;
+        bottom: 0;
+        color: white;
+        cursor: pointer;
+        height: auto;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: auto;
+    }*/
+}

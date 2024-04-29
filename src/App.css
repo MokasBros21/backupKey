@@ -1,0 +1,27 @@
+/** {
+  margin: 0px; padding: 0px;
+}
+
+body {
+  display: flex;
+  overflow: hidden;
+  flex: 1;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.App {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.work-area {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}*/

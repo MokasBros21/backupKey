@@ -1,0 +1,24 @@
+* {
+    margin: 0px; padding: 0px;
+  }
+
+  .App {
+    //display: flex;
+    height:100%;
+    flex-direction: column;
+  }
+  
+  .work-area {
+    flex-direction: row;
+    height: 0;
+    //display: flex;  
+  }
+
+.dimensiones{
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.dimensiones_recorrido{
+  width: 100%;
+}

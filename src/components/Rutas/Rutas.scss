@@ -1,0 +1,64 @@
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  }
+.dosColumnas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+.contenedorPuntoPartida{
+    display: grid;
+    grid-template-columns: repeat(2, 0.70fr);
+    grid-gap: 10px;
+}
+
+#puntoPartida{
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-left: 10%;
+}
+
+#unidadMovil{
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-left: 10%;
+}
+
+#destino{
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-left: 10%;
+}
+
+.centrar-componente{
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+
+.dimensiones{
+  scroll-behavior: auto;
+}
+
+#luminarias{
+  margin: 10%;
+}
+
+#btn{
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 10%;
+  grid-gap: 10px;
+}
+#cajaBusqueda{
+  display: none;
+}
+#alertaRecorrido{
+  display: none;
+}
